@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for komservice71 or something else",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NolimitL/kompBackend.git"
+  },
+  "author": "Leonid Grudanov <tooewoker043@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NolimitL/kompBackend/issues"
+  },
+  "homepage": "https://github.com/NolimitL/kompBackend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "nodemailer": "^6.4.13"
+  }
+}
