@@ -39,8 +39,10 @@ app.use(cors({
    //    console.log(`[Server has been started on port ${EVR.PORTsec} ...]`)
    // })
    app.use(express.static(path.join(__dirname, './dist/frontend-Komp'))).listen(80, () => {
-      console.log(`[Server [PROD] has been started on port 80 ...]`)
+      console.log(`[Server [PROD] has been started on port 80 ...]`) 
    }) 
+
+   
    // DEV 
    // app.listen(EVR.PORT, () => {
    //       console.log(`[Server [DEV] has been started on port ${EVR.PORT} ...]`)
